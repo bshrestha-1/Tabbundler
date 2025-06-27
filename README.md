@@ -38,4 +38,6 @@ Firefox introduced **vertical sidebars** starting in version **136 (early 2025)*
 - Firefox 136+
 - Tested on desktop
 
+[![](Screenshot.png)]
+
 
