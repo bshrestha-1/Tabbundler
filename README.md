@@ -1,11 +1,11 @@
 # Contextual Tab Bundler – Firefox Extension
 
-Firefox introduced **vertical sidebars for tab management** starting in version **136 (early 2025)**. This extension explores that capability by using a sidebar to automatically organize your open tabs into **topic-based groups** using lightweight AI classification.
+Firefox introduced **vertical sidebars** starting in version **136 (early 2025)**, so I wanted to explore this new feature in Firefox by building a custom extension that makes tab overload more manageable. This extension automatically organizes your open tabs into **topic-based groups** using lightweight AI classification. A more robust AI classification model is in the works.
 
 ## 🚀 Features
 
 - 🔍 **Automatic Tab Grouping**  
-  Tabs are classified into categories like _Research_, _Shopping_, _Learning_, _Entertainment_, and _News_ using smart keyword and domain heuristics.
+  Tabs are classified into categories like _Research_, _Shopping_, _Learning_, _Entertainment_, and _News_ using smart keywords and domain.
 
 - 🧠 **Context-Aware AI**  
   Goes beyond simple keyword matching. For example:
@@ -18,12 +18,6 @@ Firefox introduced **vertical sidebars for tab management** starting in version 
 - 🛠️ **User Reassignment**  
   Easily reassign misclassified tabs to a new group right from the sidebar.
 
-- 🌙 **Dark Mode**  
-  The sidebar is styled for dark mode by default.
-
-## 💡 Motivation
-
-Firefox 136 enabled sidebar-based tab experiences. I wanted to explore this by building a custom extension that makes tab overload more manageable — especially useful when doing research, shopping, or binge-learning on YouTube.
 
 ## 📦 Installation
 
@@ -39,5 +33,9 @@ Firefox 136 enabled sidebar-based tab experiences. I wanted to explore this by b
 - Cosine similarity vector classification
 - Domain and title heuristics for smarter AI behavior
 
-## 📁 Folder Structure
+## ✅ Compatibility
+
+- Firefox 136+
+- Tested on desktop
+
 
