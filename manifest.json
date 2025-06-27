@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Contextual Tab Bundler",
+  "version": "1.0",
+  "description": "Automatically groups tabs based on topic and collapses them.",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "sidebar_action": {
+    "default_title": "Tab Bundler",
+    "default_panel": "sidebar.html"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon.png"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  }
+}
